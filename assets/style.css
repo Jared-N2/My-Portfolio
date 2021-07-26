@@ -59,15 +59,18 @@ section {
 } 
 
 .portpic {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     max-width: 20%;
     padding-top: 0px; 
     padding-bottom: 0px; 
 }
 
 .box {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-items: auto;
 }
 
 
